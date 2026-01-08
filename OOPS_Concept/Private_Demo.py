@@ -6,7 +6,7 @@ class Home:
     def set_address(self, new_address):
         self.__address=new_address
 
-h=Home()
+h=Home("")
 #no accesibilty outside class-so will get error-'Home' object has no attribute '__address'.so use getters and setters method
 #print(h.__address)
 # so when use getter and setter method
